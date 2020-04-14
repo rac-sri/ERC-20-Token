@@ -1152,7 +1152,7 @@
                                   "name": "this",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 393,
+                                  "referencedDeclaration": 395,
                                   "src": "745:4:2",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_contract$_TokenSale_$362",
@@ -1776,7 +1776,7 @@
                                     "name": "this",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 393,
+                                    "referencedDeclaration": 395,
                                     "src": "1133:4:2",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_contract$_TokenSale_$362",
@@ -3086,7 +3086,7 @@
                                   "name": "this",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 393,
+                                  "referencedDeclaration": 395,
                                   "src": "745:4:2",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_contract$_TokenSale_$362",
@@ -3710,7 +3710,7 @@
                                     "name": "this",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 393,
+                                    "referencedDeclaration": 395,
                                     "src": "1133:4:2",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_contract$_TokenSale_$362",
@@ -4015,8 +4015,7 @@
     }
   },
   "schemaVersion": "3.1.0",
-  "updatedAt": "2020-04-13T07:34:16.058Z",
-  "networkType": "ethereum",
+  "updatedAt": "2020-04-14T03:46:04.282Z",
   "devdoc": {
     "methods": {}
   },
