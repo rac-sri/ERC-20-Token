@@ -35,3 +35,6 @@ and After geth attach : personal.unlockAccount(eth.accounts[0])
 After geth attach:
 1. eth.accounts
 2. eth.syncing
+
+### Screenshots
+ ![](https://imgur.com/snzjKL0)
