@@ -21,8 +21,8 @@ An initial coin offering (ICO) or initial currency offering is a type of funding
 2. geth --rinkeby --rpc --rpcapi="personal,eth,nerwork,web3,net" --ipcpath "/home/rachit/.ethereum/geth.ipc"   <!--Replace the ipcpath according to you own machine, this setup is for debian based linux distro-->
 3. geth --rinkeby account new <!--Or login with an existing account ( geth account import <keyfile>) -->
 4. geth --rinkeby --unlock <account public key>
-Alternatively :  geth --rinkeby --unlock 0x36eded82e9495917e6f4cd4b7fa2645cf6e0537a --rpc --rpcapi="personal,eth,nerwork,web3,net" --ipcpath "/home/rachit/.ethereum/geth.ipc" --allow-insecure-unlock
-Or After geth attach : personal.unlockAccount(eth.accounts[0])
+Alternatively :  geth --rinkeby --rpc --rpcapi="personal,eth,nerwork,web3,net" --ipcpath "/home/rachit/.ethereum/geth.ipc" --allow-insecure-unlock
+and After geth attach : personal.unlockAccount(eth.accounts[0])
 5. geth attach <!--In a new terminal instance-->
 
 
