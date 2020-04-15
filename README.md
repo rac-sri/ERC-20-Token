@@ -18,12 +18,14 @@ An initial coin offering (ICO) or initial currency offering is a type of funding
 ##### To connect to network:
 
 1. npm i
-2. geth --rinkeby --rpc --rpcapi="personal,eth,nerwork,web3,net" --ipcpath "/home/rachit/.ethereum/geth.ipc"   <!--Replace the ipcpath according to you own machine, this setup is for debian based linux distro-->
-3. geth --rinkeby account new <!--Or login with an existing account ( geth account import <keyfile>) -->
-4. geth --rinkeby --unlock <account public key>
-Alternatively :  geth --rinkeby --rpc --rpcapi="personal,eth,nerwork,web3,net" --ipcpath "/home/rachit/.ethereum/geth.ipc" --allow-insecure-unlock
+
+###### Deploying using geth
+2. geth --rinkeby --rpc --rpcapi="personal,eth,nerwork,web3,net" --ipcpath "/home/<user>/.ethereum/geth.ipc"   (Replace the ipcpath according to you own machine, this setup is for debian based linux distro)
+* geth --rinkeby account new <!--Or login with an existing account ( geth account import <keyfile>) -->
+* geth --rinkeby --unlock <account public key>
+Alternatively :  geth --rinkeby --rpc --rpcapi="personal,eth,nerwork,web3,net" --ipcpath "/home/<user>/.ethereum/geth.ipc" --allow-insecure-unlock
 and After geth attach : personal.unlockAccount(eth.accounts[0])
-5. geth attach <!--In a new terminal instance-->
+3. geth attach (In a new terminal instance)
 
 
 ##### Migrating:
@@ -37,4 +39,4 @@ After geth attach:
 2. eth.syncing
 
 ### Screenshots
- ![](https://imgur.com/snzjKL0)
+ ![](https://i.imgur.com/snzjKL0.png)
