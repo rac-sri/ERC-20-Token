@@ -15,28 +15,30 @@ An initial coin offering (ICO) or initial currency offering is a type of funding
 
 ##### For client side Application : **npm run dev**
 
-##### To connect to network:
-
+#### To connect to network:
+```
 1. npm i
-
+```
 ###### Deploying using geth
+```
 2. geth --rinkeby --rpc --rpcapi="personal,eth,nerwork,web3,net" --ipcpath "/home/<user>/.ethereum/geth.ipc"   (Replace the ipcpath according to you own machine, this setup is for debian based linux distro)
 * geth --rinkeby account new <!--Or login with an existing account ( geth account import <keyfile>) -->
 * geth --rinkeby --unlock <account public key>
 Alternatively :  geth --rinkeby --rpc --rpcapi="personal,eth,nerwork,web3,net" --ipcpath "/home/<user>/.ethereum/geth.ipc" --allow-insecure-unlock
 and After geth attach : personal.unlockAccount(eth.accounts[0])
 3. geth attach (In a new terminal instance)
-
+```
 
 ##### Migrating:
-
+```
 * truffle migrate --reset --compile-all --network rinkeby
-
+```
 ### Usefull Commands
 
 After geth attach:
+```
 1. eth.accounts
 2. eth.syncing
-
+```
 ### Screenshots
  ![](https://i.imgur.com/snzjKL0.png)
